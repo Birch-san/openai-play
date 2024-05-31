@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Chat (gpt-4o)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "script.chat",
+            "justMyCode": false,
+            "args": [
+                "--model", "gpt-4o",
+            ]
+        },
+        {
+            "name": "Python: Completion (gpt-4o)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "script.completion",
+            "justMyCode": false,
+            "args": [
+                "--model", "gpt-4o",
+            ]
+        },
+    ]
+}
